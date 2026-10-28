@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paralax FX — Sci-fi HUD kits for DaVinci Resolve</title>
+<meta name="description" content="Sci-fi HUD template kits for DaVinci Resolve: decode titles, scan reveals, holo glitches and helmet visors.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Paralax FX">
+<meta property="og:description" content="Sci-fi HUD template kits for DaVinci Resolve: decode titles, scan reveals, holo glitches and helmet visors.">
+<meta property="og:image" content="https://fx.paralaxverse.com/assets/share.png">
+<meta property="og:url" content="https://fx.paralaxverse.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1216">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/"><i></i>PARALAX <span>FX</span></a>
+    <nav aria-label="Sections"><a href="#effects">Effects</a><a href="#kits">Kits</a><a href="#install">Install</a><a href="#faq">FAQ</a></nav>
+  </header>
+
+  <div class="screen" id="top" role="img" aria-label="Animated HUD title reading Paralax FX">
+    <div class="grid"></div>
+    <div class="brk tl"></div><div class="brk tr"></div><div class="brk bl"></div><div class="brk br"></div>
+    <div class="scan"></div>
+    <div class="readout" aria-hidden="true">KIT <b>HUD-01</b><br>FORMAT <b>.DRFX</b><br>NODES <b id="nodes">FUSION</b><br>STATUS <b id="status">LOCKED</b></div>
+    <div class="hero-copy">
+      <div class="tag" data-decode>// INCOMING TRANSMISSION</div>
+      <div class="hero-title" data-decode>PARALAX FX</div>
+      <div class="hero-sub" data-decode>Sci-fi HUD kits for DaVinci Resolve</div>
+    </div>
+  </div>
+
+  <div class="intro">
+    <h1>Effects that make viewers ask <span>how did you do that?</span></h1>
+    <div class="lede">
+      <p>Drag-and-drop HUD titles and footage effects built in Fusion. Decode text, scan reveals, hologram glitches and a full helmet visor, each controlled from a few sliders in the Inspector.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#kits">See the kits</a>
+        <a class="btn btn-ghost" href="#effects">What's inside</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="effects">
+    <div class="sec-head">
+      <div class="eyebrow">What's inside</div>
+      <h2>Titles and footage effects</h2>
+      <p>Every item, playing. Titles sit on a track above your shot. Effects go straight onto a clip and work with any footage.</p>
+    </div>
+    <div class="fx">
+      <article class="card"><div class="media"><span class="chip">Scan Reveal</span><video data-src="media/scan-reveal.mp4" muted loop playsinline preload="none" aria-label="Scan Reveal demo"></video></div><div class="body"><span class="kind">Effect</span><h4>Scan Reveal</h4><p>A scan line sweeps across the shot and turns it into a glowing wireframe hologram, then sweeps it back.</p></div></article>
+      <article class="card"><div class="media"><span class="chip">Helmet Visor</span><video data-src="media/helmet-visor.mp4" muted loop playsinline preload="none" aria-label="Helmet Visor demo"></video></div><div class="body"><span class="kind">Effect</span><h4>Helmet Visor</h4><p>Curved-glass colour fringing, edge blur, breathing condensation, reflections and a boot-up flicker.</p></div></article>
+      <article class="card"><div class="media"><span class="chip">Holo Glitch</span><video data-src="media/holo-glitch.mp4" muted loop playsinline preload="none" aria-label="Holo Glitch demo"></video></div><div class="body"><span class="kind">Effect</span><h4>Holo Glitch</h4><p>RGB split, slice tears and flicker. One Stability slider takes it from calm to failing.</p></div></article>
+      <article class="card"><div class="media" data-demo><div class="grid"></div>
+  <div class="mini-brk" style="left:24%;top:22%;width:5cqw;height:5cqw;border-right:0;border-bottom:0"></div>
+  <div class="mini-brk" style="right:4%;top:22%;width:5cqw;height:5cqw;border-left:0;border-bottom:0"></div>
+  <div class="mini-brk" style="left:24%;bottom:22%;width:5cqw;height:5cqw;border-right:0;border-top:0"></div>
+  <div class="mini-brk" style="right:4%;bottom:22%;width:5cqw;height:5cqw;border-left:0;border-top:0"></div>
+  <div class="live c-acc" style="left:28%;top:30%;font-size:2.2cqw;letter-spacing:.25em" data-d="2,1">// INCOMING TRANSMISSION</div>
+  <div class="live c-text" style="left:28%;top:40%;font-size:5.6cqw;font-weight:500" data-d="14,2">KESTREL-7</div>
+  <div class="live c-acc" style="left:28%;top:56%;font-size:2.6cqw;letter-spacing:.25em" data-d="34,1">SECTOR 4 // DAY 12</div>
+  <div class="live c-mut" style="left:4%;top:30%;font-size:2cqw;line-height:1.7" data-readout></div></div><div class="body"><span class="kind">Title</span><h4>Transmission Card</h4><p>Brackets snap in, text decodes letter by letter and live readouts tick until the lock.</p></div></article>
+      <article class="card"><div class="media" data-demo><div class="grid"></div>
+  <div class="live c-text" style="left:8%;bottom:30%;font-size:7.2cqw;font-weight:500" data-d="0,2">OUTPOST KESTREL-7</div>
+  <div class="live" style="left:8%;bottom:26.5%;height:.5cqw;width:0;background:var(--accent)" data-bar="40"></div>
+  <div class="live c-acc" style="left:8%;bottom:17%;font-size:3cqw;letter-spacing:.25em" data-d="36,1">SECTOR 4 // DAY 12</div></div><div class="body"><span class="kind">Title</span><h4>Decode Title</h4><p>Your text scrambles through random glyphs before resolving, and decodes out at the end.</p></div></article>
+      <article class="card"><div class="media" data-demo><div class="grid"></div>
+  <div class="live c-acc" style="left:50%;top:8%;transform:translateX(-50%);font-size:2.4cqw" data-compass></div>
+  <div class="live c-acc" style="left:50%;top:15%;transform:translateX(-50%);font-size:2cqw">V</div>
+  <div class="live" style="left:50%;top:50%;width:9cqw;height:9cqw;transform:translate(-50%,-50%);border:1.5px solid var(--accent);border-radius:50%;opacity:.7"></div>
+  <div class="live c-acc" style="left:6%;top:36%;font-size:2.3cqw;line-height:1.6" data-d="10,1">SUIT\nO2   [########--] 81%\nTEMP [#####-----] 55%\nPWR  [#########-] 91%</div>
+  <div class="live c-acc" style="right:6%;top:36%;font-size:2.3cqw;line-height:1.6;text-align:right" data-d="20,1">COMMS\nCH 02 // CREW\nSIGNAL STRONG</div>
+  <div class="live c-acc" style="left:50%;bottom:9%;transform:translateX(-50%);font-size:2.2cqw;letter-spacing:.2em" data-d="40,1">SUIT SYSTEMS NOMINAL</div></div><div class="body"><span class="kind">Title</span><h4>Visor Overlay</h4><p>Compass tape, reticle, suit and comms panels. Stack it on Helmet Visor for a first-person view.</p></div></article>
+      <article class="card"><div class="media" data-demo><div class="grid"></div>
+  <div class="live" style="left:6%;top:9%;width:.5cqw;height:15cqw;background:var(--accent)"></div>
+  <div class="live" style="left:8.5%;top:10%;width:1.4cqw;height:1.4cqw;background:var(--accent);border-radius:50%" data-blink></div>
+  <div class="live c-acc" style="left:11%;top:9.4%;font-size:2.4cqw;letter-spacing:.3em" data-d="2,1">LOCATION</div>
+  <div class="live c-text" style="left:8.5%;top:16%;font-size:5.4cqw;font-weight:500" data-d="12,2">PORT TRESSLER</div>
+  <div class="live c-mut" style="left:8.5%;top:27%;font-size:2.4cqw;letter-spacing:.2em" data-d="40,1">ORBIT // 14:32 SET</div></div><div class="body"><span class="kind">Title</span><h4>Location Tag</h4><p>A compact corner tag for places and times, with a blinking status dot.</p></div></article>
+      <article class="card"><div class="media"><div class="grid"></div><div class="soon"><b>3D Fly-Through</b>Demo coming at launch</div></div><div class="body"><span class="kind">Fusion scene</span><h4>3D Fly-Through</h4><p>Five screens floating in deep space. The camera hovers at each one and swoops between them.</p></div></article>
+      <article class="card"><div class="media"><div class="grid"></div><div class="soon"><b>3D Light and Shadow</b>Demo coming at launch</div></div><div class="body"><span class="kind">Fusion scene</span><h4>3D Light and Shadow</h4><p>Floating images and a 3D title under a sweeping spotlight that casts real shadows.</p></div></article>
+      <article class="card"><div class="media"><span class="chip">Subject Scan</span><video data-src="media/subject-scan.mp4" muted loop playsinline preload="none" aria-label="Subject Scan demo"></video></div><div class="body"><span class="kind studio">Studio only</span><h4>Subject Scan</h4><p>Scans only the ship, weapon or person in front. The background stays untouched.</p></div></article>
+      <article class="card"><div class="media"><div class="grid"></div><div class="soon"><b>Depth Scan</b>Demo coming at launch</div></div><div class="body"><span class="kind studio">Studio only</span><h4>Depth Scan</h4><p>Uses Resolve's AI depth map so the scan pulse travels into the scene, near to far.</p></div></article>
+      <article class="card"><div class="media"><div class="grid"></div><div class="soon"><b>Subject Hologram</b>Demo coming at launch</div></div><div class="body"><span class="kind studio">Studio only</span><h4>Subject Hologram</h4><p>Only the person or ship in the foreground turns into a hologram.</p></div></article>
+      <article class="card"><div class="media"><div class="grid"></div><div class="soon"><b>Subject Glitch</b>Demo coming at launch</div></div><div class="body"><span class="kind studio">Studio only</span><h4>Subject Glitch</h4><p>Glitches the foreground subject while the background stays clean.</p></div></article>
+    </div>
+  </section>
+
+  <section id="kits">
+    <div class="sec-head">
+      <div class="eyebrow">Kits</div>
+      <h2>Pick your version of Resolve</h2>
+      <p>Both kits share the same core effects. The Studio kit adds effects that use Resolve Studio's AI depth tools.</p>
+    </div>
+    <div class="kits">
+      <article class="kit">
+        <div class="kit-top"><h3>HUD Kit</h3><span class="pill">Resolve free or Studio</span></div>
+        <div class="price">£14<small>one-off</small></div>
+        <ul>
+          <li>4 HUD titles</li>
+          <li>3 footage effects</li>
+          <li>2 Fusion 3D scenes</li>
+          <li>Accent colour, position and timing controls on every item</li>
+          <li>Free updates as new effects are added</li>
+        </ul>
+        <a class="btn btn-ghost" href="#notify" data-buy="kit" data-label="Buy HUD Kit">Launching soon</a>
+      </article>
+      <article class="kit pro">
+        <div class="kit-top"><h3>HUD Kit Studio</h3><span class="pill req">Needs Resolve Studio</span></div>
+        <div class="price">£24<small>one-off</small></div>
+        <ul>
+          <li>Everything in HUD Kit</li>
+          <li>Subject Scan, Depth Scan, Subject Hologram and Subject Glitch</li>
+          <li>Upgrade from HUD Kit for the difference</li>
+          <li>Free updates as new effects are added</li>
+        </ul>
+        <a class="btn btn-primary" href="#notify" data-buy="studio" data-label="Buy HUD Kit Studio">Launching soon</a>
+      </article>
+    </div>
+    <div class="demo" id="notify">
+      <p><strong style="color:var(--text)">Free demo kit.</strong> Try Decode Title and Location Tag in your own edit before you buy.</p>
+      <a class="btn btn-ghost" href="#notify" data-buy="demo" data-label="Get the free kit">Coming at launch</a>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="sec-head">
+      <div class="eyebrow">Install</div>
+      <h2>Up and running in a minute</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Double-click the .drfx</h3><p>Resolve opens and asks to install the kit. Click Install.</p></div>
+      <div class="step"><h3>Drag it on</h3><p>Find it under Effects, in Titles or Effects. Drop a title above your clip, or an effect onto it.</p></div>
+      <div class="step"><h3>Tweak in the Inspector</h3><p>Type your text, pick an accent colour and set speed and timing. No Fusion knowledge needed.</p></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="sec-head"><div class="eyebrow">Questions</div><h2>Before you buy</h2></div>
+    <div class="faq">
+      <details><summary>Can I use these in monetised videos?</summary><p>Yes. Use them in as many of your own videos as you like, including monetised and client work. You just can't resell or share the template files themselves.</p></details>
+      <details><summary>Which kit do I need?</summary><p>If you use the free version of DaVinci Resolve, get HUD Kit. If you own Resolve Studio, HUD Kit Studio adds the AI depth effects on top.</p></details>
+      <details><summary>Do I need to know Fusion?</summary><p>No. Titles and effects are drag and drop with controls in the Inspector. The two 3D scenes are pasted onto the Fusion page, and the included guide shows you where to plug your clips in.</p></details>
+      <details><summary>Will it slow my timeline down?</summary><p>The footage effects are heavier than plain titles. If playback stutters, use Render Cache or Render in Place while you edit.</p></details>
+    </div>
+  </section>
+
+  <footer>
+    <a class="brand" href="/"><i></i>PARALAX <span>FX</span></a>
+    <p>Paralax FX is an independent creator store. It is not affiliated with Paralax Verse, Cloud Imperium Games or Blackmagic Design.</p>
+    <p>DaVinci Resolve and Fusion are trademarks of Blackmagic Design Pty Ltd.</p>
+    <nav aria-label="Policies"><a href="/licence">Licence</a><a href="/refunds">Refunds</a><a href="/privacy">Privacy</a></nav>
+  </footer>
+</div>
+
+<script src="/js/site.js"></script>
+</body>
+</html>

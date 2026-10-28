@@ -1,0 +1,12 @@
+// Cloudflare settings for fx.paralaxverse.com (the Paralax FX shop).
+// The shop is plain files. Cloudflare serves them as they are: no code runs on the server.
+{
+  "name": "paralax-fx",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./",
+    // /licence finds licence.html automatically, and any address that doesn't exist shows 404.html.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
