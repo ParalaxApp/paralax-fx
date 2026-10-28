@@ -3,9 +3,9 @@
 // Leave a link empty ("") and its button says "Launching soon" instead.
 // ====================================================================
 const CHECKOUT = {
-  kit: "",     // HUD Kit (£14)
-  studio: "",  // HUD Kit Studio (£24)
-  demo: ""     // Free demo kit (£0)
+  kit: "https://paralax-fx.lemonsqueezy.com/checkout/buy/1740667a-b969-4a66-beff-4d409f04cf39",     // HUD Kit (£14), test mode
+  studio: "https://paralax-fx.lemonsqueezy.com/checkout/buy/c0512f9c-d492-4b98-8b3e-610cdd9a1506",  // HUD Kit Studio (£24), test mode
+  demo: "https://paralax-fx.lemonsqueezy.com/checkout/buy/a2cdfd41-1c01-48ef-a0f2-08877ab79271"     // Free demo kit (£0), test mode
 };
 
 // Turns the buy buttons on once a checkout link is filled in above.
