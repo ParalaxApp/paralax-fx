@@ -6,3 +6,4 @@
 - Checkout links live at the top of js/site.js (CHECKOUT). Empty = "Launching soon".
 - The owner designs and is learning to code: keep code commented in plain English and explain changes simply.
 - Demo videos in media/ are placeholders made from Star Citizen footage. Replace them with purpose-shot demos before launch.
+- PRE-LAUNCH: index.html is a "Coming soon" page. The real shop lives at /preview-dc52a445 (noindex). At launch: rename preview-dc52a445.html back to index.html (overwriting the coming-soon page) and remove its robots noindex line.
